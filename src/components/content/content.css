@@ -1,0 +1,210 @@
+.content__container {
+  background-color: #ededed;
+  width: 100%;
+}
+
+.content {
+  width: 780px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 50px;
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+}
+
+.hairstyle__container {
+  height: 300px;
+  width: 100%;
+  border: 2px solid #4c8f96;
+  border-radius: 5px;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.hairstyle__container__image {
+  width: 40%;
+  height: 100%;
+}
+.hairstyle__container__image > img {
+  height: 100%;
+}
+
+.hairstyle__image__text__container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  align-items: center;
+}
+
+.hairstyle__image__text__container > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  margin: 0px 15px;
+}
+
+.list__image__container {
+  margin-top: 50px;
+  box-shadow: 0px 4px 6px -1px #000;
+  margin-bottom: 10px;
+}
+.list__wrap__container > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.list__image__container {
+  border: 3px solid #4c8f96;
+  height: 140px;
+  width: 170px;
+}
+
+.list__image__container > img {
+  height: 100%;
+  width: 100%;
+}
+
+.title__description > span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.title__description > p {
+  font-size: 12px;
+  color: #888;
+  width: 160px;
+}
+
+/* PART3 */
+.featured__hairstyle {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+.featured__hairstyle__left {
+  width: 48%;
+  margin-top: 30px;
+  position: relative;
+  border: 3px solid #5fb3bd;
+  padding: 10px 5px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.featured__hairstyle__left__title {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  background-color: #232943;
+  color: #fff;
+  font-size: 18px;
+  font-family: cursive;
+  padding: 5px 20px;
+}
+
+.hair__image__text__container {
+  padding-top: 40px;
+  display: flex;
+}
+.hair__image__container {
+  padding: 5px;
+  margin-right: 20px;
+}
+.hair__image__container > img {
+  height: 70px;
+}
+
+.hair__image__description__container {
+  padding: 5px;
+}
+.hair__image__description__container > p {
+  color: #888;
+  font-size: 10px;
+}
+
+.featured__hairstyle__right {
+  width: 48%;
+}
+
+.featured__hairstyle__right {
+  margin-top: 30px;
+}
+
+.hairstyle__box__top {
+  border: 3px solid #5fb3bd;
+  background-color: #4c8f96;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.hairstyle__box__top__title {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  background-color: #232943;
+  color: #fff;
+  font-size: 18px;
+  font-family: cursive;
+  padding: 5px 20px;
+}
+
+.hairstyle__box__top__title > span {
+  color: #fff;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hairstyle__box__top__para {
+  padding: 60px 10px 20px 10px;
+}
+.hairstyle__box__top__para > p {
+  color: #fff;
+  font-size: 10px;
+}
+
+.hairstyle__box__top__footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+.hairstyle__box__top__footer > span {
+  color: #fff;
+  font-size: 13px;
+  font-family: cursive;
+  padding-bottom: 5px;
+}
+
+.hairstyle__box__image {
+  position: absolute;
+  top: -15px;
+  left: 0px;
+}
+
+.hairstyle__box__image > img {
+  height: 200px;
+}
+
+.hairstyle__box__bottom__para {
+  padding: 60px 10px 20px 10px;
+  display: flex;
+  justify-content: flex-end;
+
+  /* width: 50% */
+}
+.hairstyle__box__bottom__para > p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  word-spacing: 3px;
+  width: 60%;
+  letter-spacing: 0.4px;
+}

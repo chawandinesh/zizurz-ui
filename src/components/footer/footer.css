@@ -1,0 +1,15 @@
+.container {
+    background-color: #EDEDED;
+}
+.footer__container{
+    padding: 30px  0px;
+    /* padding: 20px 0px; */
+    background-color: #4C8F96;
+    text-align: center;
+}
+
+.copyright__container > span {
+    font-size: 14px;
+    color: #fff
+}
+
